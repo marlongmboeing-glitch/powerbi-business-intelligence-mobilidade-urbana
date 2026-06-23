@@ -103,7 +103,14 @@ Dashboard interativo desenvolvido em Power BI contendo indicadores de demanda, f
 
 
 
+
+
+
+
 <img width="1536" height="1024" alt="Regionais de Curitiba estratégico" src="https://github.com/user-attachments/assets/a0bfff08-da7c-41d2-84e3-30582789bf45" />
+
+
+
 
 
 
