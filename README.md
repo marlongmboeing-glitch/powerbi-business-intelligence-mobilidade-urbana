@@ -1,7 +1,3 @@
-
-powerbi-business-intelligence-mobilidade-urbana
-
-
 📊 Business Intelligence Aplicado à Mobilidade Urbana:
 Análise Estratégica para Maximização do Retorno Financeiro por Quilômetro Rodado
 
