@@ -78,6 +78,7 @@ Regional
 *Ticket Médio
 
 🚀 Competências Demonstradas
+
 *Business Intelligence
 *Power BI
 *Modelagem de Dados
