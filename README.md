@@ -73,6 +73,7 @@ Bairro
 Regional
 
 📊 Indicadores (KPIs)
+
 *Corridas Totais
 *Faturamento Total
 *Ticket Médio
