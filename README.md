@@ -1,17 +1,19 @@
-📊 Business Intelligence Aplicado à Mobilidade Urbana:
+📊 Business Intelligence Aplicado à Mobilidade Urbana
+
 Análise Estratégica para Maximização do Retorno Financeiro por Quilômetro Rodado
 
 Este projeto representa a evolução das análises desenvolvidas anteriormente em Excel e SQL, utilizando Power BI para transformar dados operacionais em informações estratégicas e apoiar a tomada de decisão baseada em dados.
 
 
 🎯 Objetivo
+
 Identificar padrões de mobilidade urbana e oportunidades para maximizar o retorno financeiro por quilômetro rodado, considerando:
 
-*Demanda por região;
-*Ticket médio;
-*Perfil das corridas;
-*Posicionamento regional;
-*Eficiência operacional.
+• Demanda por região;
+• Ticket médio;
+• Perfil das corridas;
+• Posicionamento regional;
+• Eficiência operacional.
 
 🛠 Ferramentas Utilizadas:
 
@@ -51,27 +53,27 @@ A análise foi realizada sobre uma amostra de corridas e tem como objetivo ident
 
 🗂 Modelagem de Dados
 
-### Tabela Fato
+Tabela Fato (fato_corridas)
 
-*bairro_origem
-*bairro_destino
-*data
-*hora
-*valor_corrida
-*distancia_km
-*faixa_distancia
+• bairro_origem
+• bairro_destino
+• data
+• hora
+• valor_corrida
+• distancia_km
+• faixa_distancia
 
-### Dimensão Tempo (dim_tempo)
+Dimensão Tempo (dim_tempo)
 
-*Data
-*Hora
-*Período
-*Faixa Horária
+• Data
+• Hora
+• Período
+• Faixa Horária
 
-### Dimensão Bairro (dim_bairro)
+Dimensão Bairro (dim_bairro)
 
-Bairro
-Regional
+• Bairro
+• Regional
 
 📊 Indicadores (KPIs)
 
@@ -92,6 +94,8 @@ Regional
 *Tomada de Decisão Baseada em Dados
 
 📷 Dashboard
+
+Dashboard interativo desenvolvido em Power BI contendo indicadores de demanda, faturamento, ticket médio, distribuição regional e padrões de mobilidade urbana.
 
 
 <img width="1536" height="1024" alt="Regionais de Curitiba estratégico" src="https://github.com/user-attachments/assets/a0bfff08-da7c-41d2-84e3-30582789bf45" />
