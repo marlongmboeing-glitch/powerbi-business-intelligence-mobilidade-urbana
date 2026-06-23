@@ -1,15 +1,21 @@
 # powerbi-business-intelligence-mobilidade-urbana
 Projeto de Business Intelligence desenvolvido em Power BI para análise de mobilidade urbana, indicadores operacionais e financeiros, utilizando modelagem dimensional e medidas DAX para apoio à tomada de decisão
 
+powerbi-business-intelligence-mobilidade-urbana
 📊 Business Intelligence Aplicado à Mobilidade Urbana
 Análise Estratégica para Maximização do Retorno Financeiro por Quilômetro Rodado
 
-Este projeto representa a evolução de análises anteriormente desenvolvidas em Excel e SQL, agora utilizando Power BI para transformar dados operacionais em informações estratégicas para apoio à tomada de decisão.
+Este projeto representa a evolução das análises desenvolvidas anteriormente em Excel e SQL, utilizando Power BI para transformar dados operacionais em informações estratégicas e apoiar a tomada de decisão baseada em dados.
 
 🎯 Objetivo
 
-Identificar padrões de mobilidade urbana e oportunidades para maximizar o retorno financeiro por quilômetro rodado, considerando demanda, ticket médio, perfil das corridas, posicionamento regional e eficiência operacional.
+Identificar padrões de mobilidade urbana e oportunidades para maximizar o retorno financeiro por quilômetro rodado, considerando:
 
+Demanda por região;
+Ticket médio;
+Perfil das corridas;
+Posicionamento regional;
+Eficiência operacional.
 🛠 Ferramentas Utilizadas
 Power BI
 Power Query
@@ -28,7 +34,7 @@ Destinos com maior concentração de demanda
 
 A análise demonstrou que a maximização do retorno financeiro não depende exclusivamente do maior ticket médio.
 
-Os resultados indicam que a concentração operacional em regiões próximas da residência do motorista tende a proporcionar:
+Os resultados sugerem que a concentração operacional em regiões próximas da residência do motorista tende a proporcionar:
 
 maior frequência de corridas;
 redução do tempo ocioso;
@@ -37,17 +43,59 @@ menor depreciação do veículo;
 melhor aproveitamento financeiro por quilômetro rodado.
 📌 Metodologia
 
-O projeto foi desenvolvido utilizando modelagem dimensional, relacionando tabelas fato e dimensões para construção de indicadores estratégicos por meio de medidas DAX.
+O projeto foi desenvolvido utilizando Modelagem Dimensional, relacionando tabelas fato e dimensões para construção de indicadores estratégicos por meio de medidas DAX.
 
 A análise foi realizada sobre uma amostra de corridas e tem como objetivo identificar padrões operacionais e apoiar a tomada de decisão, sem generalizar os resultados para toda a cidade.
 
+🗂 Modelagem de Dados
+
+Tabela Fato
+
+bairro_origem
+bairro_destino
+data
+hora
+valor_corrida
+distancia_km
+faixa_distancia
+
+Dimensões
+
+dim_tempo
+
+Data
+Hora
+Período
+Faixa Horária
+
+dim_bairro
+
+Bairro
+Regional
+📊 Indicadores (KPIs)
+Corridas Totais
+Faturamento Total
+Ticket Médio
 🚀 Competências Demonstradas
 Business Intelligence
-Modelagem de Dados
 Power BI
+Modelagem de Dados
+Power Query
 DAX
-Análise de Indicadores
-Storytelling com Dados
 Business Analytics
+Storytelling com Dados
+Análise de Indicadores
 Tomada de Decisão Baseada em Dados
-📂 Este projeto faz parte do meu portfólio de Business Analytics, demonstrando a evolução das análises realizadas em Excel, SQL e Power BI para resolução de problemas reais de negócio.
+📷 Dashboard
+
+(Inserir aqui as imagens do dashboard e do mapa regional.)
+
+📂 Portfólio
+
+Este projeto faz parte do meu portfólio de Business Analytics, demonstrando a evolução das análises realizadas em Excel, SQL e Power BI para resolução de problemas reais de negócio.
+
+❓ Problema de Negócio
+
+Como maximizar o retorno financeiro por quilômetro rodado utilizando dados de mobilidade urbana, demanda regional, ticket médio e perfil das corridas para apoiar decisões operacionais de motoristas por aplicativo?
+
+
