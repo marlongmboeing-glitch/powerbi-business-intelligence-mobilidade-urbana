@@ -7,31 +7,32 @@ Este projeto representa a evolução das análises desenvolvidas anteriormente e
 🎯 Objetivo
 Identificar padrões de mobilidade urbana e oportunidades para maximizar o retorno financeiro por quilômetro rodado, considerando:
 
-Demanda por região;
-Ticket médio;
-Perfil das corridas;
-Posicionamento regional;
-Eficiência operacional.
+*Demanda por região;
+*Ticket médio;
+*Perfil das corridas;
+*Posicionamento regional;
+*Eficiência operacional.
 
 🛠 Ferramentas Utilizadas:
 
-Power BI
-Power Query
-Modelagem Dimensional
-DAX
-Dashboard Interativo
+*Power BI
+*Power Query
+*Modelagem Dimensional
+*DAX
+*Dashboard Interativo
 
 📈 Principais Análises
 
-Corridas por Data
-Corridas por Hora
-Corridas por Regional
-Faturamento por Regional
-Ticket Médio por Regional
-Corridas por Faixa de Distância
-Destinos com maior concentração de demanda
+*Corridas por Data
+*Corridas por Hora
+*Corridas por Regional
+*Faturamento por Regional
+*Ticket Médio por Regional
+*Corridas por Faixa de Distância
+*Destinos com maior concentração de demanda
 
 💡 Principais Insights
+
 A análise demonstrou que a maximização do retorno financeiro não depende exclusivamente do maior ticket médio.
 
 Os resultados sugerem que a concentração operacional em regiões próximas da residência do motorista tende a proporcionar:
@@ -43,12 +44,14 @@ menor depreciação do veículo;
 melhor aproveitamento financeiro por quilômetro rodado.
 
 📌 Metodologia
+
 O projeto foi desenvolvido utilizando Modelagem Dimensional, relacionando tabelas fato e dimensões para construção de indicadores estratégicos por meio de medidas DAX.
 
 A análise foi realizada sobre uma amostra de corridas e tem como objetivo identificar padrões operacionais e apoiar a tomada de decisão, sem generalizar os resultados para toda a cidade.
 
 🗂 Modelagem de Dados
-Tabela Fato
+
+### Tabela Fato
 
 *bairro_origem
 *bairro_destino
@@ -58,16 +61,14 @@ Tabela Fato
 *distancia_km
 *faixa_distancia
 
-Dimensões
-
-dim_tempo
+### Dimensão Tempo (dim_tempo)
 
 *Data
 *Hora
 *Período
 *Faixa Horária
 
-dim_bairro
+### Dimensão Bairro (dim_bairro)
 
 Bairro
 Regional
