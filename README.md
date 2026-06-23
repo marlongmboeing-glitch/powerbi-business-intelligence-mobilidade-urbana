@@ -95,6 +95,10 @@ Regional
 
 
 
+
+
+
+
 📂 Portfólio
 
 Este projeto faz parte do meu portfólio de Business Analytics, demonstrando a evolução das análises realizadas em Excel, SQL e Power BI para resolução de problemas reais de negócio.
