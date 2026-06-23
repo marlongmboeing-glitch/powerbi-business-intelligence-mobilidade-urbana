@@ -74,9 +74,9 @@ Regional
 
 📊 Indicadores (KPIs)
 
-*Corridas Totais;
-*Faturamento Total;
-*Ticket Médio;
+*Corridas Totais
+*Faturamento Total
+*Ticket Médio
 
 🚀 Competências Demonstradas
 
