@@ -98,7 +98,8 @@ Dimensão Bairro (dim_bairro)
 Dashboard interativo desenvolvido em Power BI contendo indicadores de demanda, faturamento, ticket médio, distribuição regional e padrões de mobilidade urbana.
 
 
-<img width="1680" height="1050" alt="Corridas total x Regional x Hora" src="https://github.com/user-attachments/assets/d5fce0ff-54c9-4387-9d1d-f61906198fdf" />
+<img width="1042" height="626" alt="Corridas total x Regional x Hora" src="https://github.com/user-attachments/assets/1eb344ae-37a3-4e26-a5bb-a538f731a685" />
+
 
 
 
